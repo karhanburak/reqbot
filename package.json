@@ -1,8 +1,11 @@
 {
-  "name": "periodic-get",
+  "name": "reqbot",
   "version": "1.0.0",
+  "description": "A simple CLI tool to send periodic GET requests",
   "type": "module",
-  "main": "index.js",
+  "bin": {
+    "reqbot": "./bin/reqbot.js"
+  },
   "dependencies": {
     "axios": "^1.7.7",
     "dotenv": "^16.4.5"
